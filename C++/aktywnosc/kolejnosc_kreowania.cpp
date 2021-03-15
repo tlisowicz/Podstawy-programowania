@@ -16,7 +16,8 @@ class StudenckaLodowka{
         Zamrazalnik();
         ~Zamrazalnik();
     };
-    
+    Zamrazalnik zamrazalnik;
+    Chlodnia chlodnia;
 };
 
 StudenckaLodowka::StudenckaLodowka(){
@@ -42,7 +43,7 @@ StudenckaLodowka::Zamrazalnik::~Zamrazalnik(){
 }
 int main(){
     StudenckaLodowka l1;
-    StudenckaLodowka::Zamrazalnik zamrazalnik;
-    StudenckaLodowka::Chlodnia chlodnia;
+    //StudenckaLodowka::Zamrazalnik zamrazalnik;
+    //StudenckaLodowka::Chlodnia chlodnia;
 
 }
